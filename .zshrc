@@ -3,7 +3,7 @@ export EDITOR=vim
 
 # Enable colors and change prompt
 autoload -U colors && colors
-PS1="%{$fg[red]%}%T %n:%~/ %B>%b %{$reset_color%}"
+PS1="%{$fg[blue]%}%T %n:%~/ %B>%b %{$reset_color%}"
 
 # History in cache directory
 HISTSIZE=2000
