@@ -34,7 +34,7 @@ disabled = true
 
 [cmd_duration]
 min_time = 30000
-format = "🕒 [$duration](bold yellow) "
+format = "[🕒 $duration](bold yellow) "
 
 [conda]
 disabled = true
