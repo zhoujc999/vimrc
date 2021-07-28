@@ -30,6 +30,6 @@ function rm --wraps rm
     command rm -I $argv
 end
 
-fish_add_path /home/jzhou/bin/
+fish_add_path /home/$USER/bin/
 
 starship init fish | source
