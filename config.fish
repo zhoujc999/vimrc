@@ -10,8 +10,8 @@ function grep --wraps rg
     command rg $argv
 end
 
-function find --wraps fd
-    command fd $argv
+function find --wraps fdfind
+    command fdfind $argv
 end
 
 function cs --wraps ls
