@@ -1,6 +1,6 @@
 [user]
-    email = zhoujc999@gmail.com
-    name = Jingchao Zhou
+    email = {email}
+    name = {name}
 [core]
     editor = vim
 [diff]
