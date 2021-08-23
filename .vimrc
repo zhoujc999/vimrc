@@ -284,5 +284,9 @@ endif
 nnoremap <leader>n :bnext<CR>
 nnoremap <leader>p :bprev<CR>
 
+" => Vim Startup Commands
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd VimEnter * PlugInstall
+
 " => Specific Directories Bindings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
