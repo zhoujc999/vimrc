@@ -286,7 +286,7 @@ nnoremap <leader>p :bprev<CR>
 
 " => Vim Startup Commands
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd VimEnter * PlugInstall
+" autocmd VimEnter * PlugInstall
 
 " => Specific Directories Bindings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
