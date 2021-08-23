@@ -105,7 +105,7 @@ set noshowmode
 
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-colorscheme gruvbox
+silent! colorscheme gruvbox
 set background=dark
 " Enable syntax highlighting
 if !exists("g:syntax_on")
