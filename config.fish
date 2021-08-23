@@ -2,8 +2,8 @@ function ls --wraps exa
     command exa -la --color=auto --group-directories-first $argv
 end
 
-function cat --wraps bat
-    command bat $argv
+function cat --wraps batcat
+    command batcat $argv
 end
 
 function grep --wraps rg
